@@ -1,0 +1,70 @@
+.header {
+    background-color: var(--bg-sidebar);
+    border-bottom: 2px solid var(--accent-blue);
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navContainer {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: var(--text-main);
+}
+
+.logo span {
+    color: var(--accent-blue);
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    gap: 4px;
+    height: 100%;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    height: 47px;
+    padding: 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-muted);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.navLink:hover {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+}
+
+.steamBtn {
+    background-color: #171a21;
+    border: 1px solid #2a475e;
+    color: #c5c3c0;
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+.steamBtn:hover {
+    border-color: #66c0f4;
+    color: #fff;
+}

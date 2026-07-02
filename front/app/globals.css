@@ -1,0 +1,33 @@
+:root {
+  --bg-dark: #1b1e22;
+  /* Основной фон сайта */
+  --bg-sidebar: #23272c;
+  /* Фон боковых колонок */
+  --bg-sidebar-header: #543964;
+  /* Фон заголовка боковых колонок */
+  --text-main: #f4f4f5;
+  /* Белый текст */
+  --text-muted: #94a3b8;
+  /* Серый текст */
+  --accent-blue: #9966cc;
+  /* Синий цвет */
+  --border-color: #2d3139;
+  /* Цвет рамок */
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: system-ui, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

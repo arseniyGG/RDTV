@@ -1,0 +1,5 @@
+back/venv/
+back/__pycache__/
+
+front/.next/
+front/node_modules/
