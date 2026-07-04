@@ -31,3 +31,30 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 240px 1fr 240px;
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.sitebarLeft,
+.sitebarRight {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.text {
+  color: var(--text-muted);
+  font-size: 14px;
+}

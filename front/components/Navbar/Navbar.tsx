@@ -22,6 +22,9 @@ export default function Navbar() {
                         <li>
                             <Link href="/ranking" className={styles.navLink}>Рейтинг</Link>
                         </li>
+                        <li>
+                            <Link href="/transfers" className={styles.navLink}>Трансферы</Link>
+                        </li>
                     </ul>
                 </nav>
                 <div className={styles.auth}>

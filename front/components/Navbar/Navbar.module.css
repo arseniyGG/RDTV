@@ -13,9 +13,10 @@
     height: 100%;
     margin: 0 auto;
     padding: 0 16px;
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 240px 1fr 240px;
     align-items: center;
-    justify-content: space-between;
 }
 
 .logo {
@@ -31,6 +32,7 @@
 
 .navList {
     display: flex;
+    justify-content: center;
     list-style: none;
     gap: 4px;
     height: 100%;
@@ -50,6 +52,11 @@
 .navLink:hover {
     background-color: var(--bg-dark);
     color: var(--text-main);
+}
+
+.auth {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .steamBtn {
